@@ -12,6 +12,45 @@ h2
     font-weight: bolder;
     margin-bottom: 40px;
 }
+h3
+{
+  width: 385px;
+height: 80px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+color: #000000;
+}
+h6
+{
+  text-decoration: underline;
+  color:black;
+  
+  text-align: right;
+}
+.above
+{
+  width: 385px;
+height: 32px;
+
+margin-bottom: 0px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+
+
+color: rgba(0, 0, 0, 0.5);
+
+color: rgba(0, 0, 0, 0.5);
+
+}
 h5
 {
     color:black;
@@ -19,7 +58,21 @@ h5
 .navbar-nav .nav-item:last-child{
    border-left: 2px solid ;
 }
-
+.PhoneInputInput
+{
+  padding-left: 100px;
+margin-bottom: 20px;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-right: 12px;
+background-color: #FFFFFF;
+border: 1px solid #D0D0D0;
+border-radius: 7px;
+}
+.PhoneInputCountrySelect
+{
+  padding-bottom: 20px;
+}
 @media (max-width: 768px) {
   .navbar-nav .nav-item:last-child{
     border-left: none;
@@ -68,7 +121,18 @@ h5
 .ext
 {
     padding-left: 100px;
+margin-bottom: 20px;
+
+background-color: #FFFFFF;
+border: 1px solid #D0D0D0;
+border-radius: 7px;
+
 }
+.row
+{
+  width:891.526px;
+}
+
 #id
 {
     padding: 0;
@@ -85,6 +149,10 @@ h5
 {
     margin-top: 28px;
 }
+.et
+{
+  display: flex;
+}
 .card
 {
     width: 300px;
@@ -92,9 +160,12 @@ h5
 }
 .dropdown-basic
 {
-    background-color: #a2b29f;
+    background-color: #FFF;
     border:none;
     color: inherit;
+    padding-left: 280px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .cong
@@ -123,6 +194,9 @@ h5
 .chk
 {
     margin-right: 10px;
+    width: 20px;
+    height:20px; 
+
 }
 
 .main {
@@ -157,7 +231,7 @@ h5
     }
 
     .login-form{
-        margin-top: 160px;
+        margin-top: 80px;
     }
 
     .register-form{
@@ -169,36 +243,71 @@ h5
 .login-main-text{
     margin-top: 20%;
     padding: 60px;
-    color: #000;
+    
 }
 
 .login-main-text h1{
     font-weight: bolder;
-    font-size:46px;
+    
+    
+font-size: 46px;
+line-height: 47px;
+width: 507px;
+height: 94px;
+
+
+font-family: Fredoka One;
+
+
+line-height: 47px;
+
+color: #D2202B;
+
     
 }
 .navbut
 {
-    margin-left: 10px;
-    width: 86px;
+   color: white;
+width: 163px;
+height: 46px;
+
+
+background: #2F4D96;
+border-radius: 9px;
+margin-left: 20px;
 }
 .navc
 {
-   background-color: #a2b29f; 
+   background-color: #FFF; 
+   height: 88px;
+
+
+border-radius: 0px;
+
 }
 .btn-black{
-    background-color: #a2b29f !important;
-    color: #000;
-    width: 389px;
+    width: 268px;
+height: 62px;
+
+
+background: #2F4D96;
+border-radius: 37px;
     
     margin-top: 20px;
-    border-radius: 20px;
+    font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+
+color: #FFFFFF;
+    
 }
 .btn-d
 {
  background-color: #a2b29f !important;
     color: #000;
     margin-top: 10px;
+
 }
 .hel
 {
@@ -218,11 +327,7 @@ background-blend-mode: soft-light, normal;
 box-shadow: -7px -7px 16px #FAFBFC, 4px 3px 19px #BDC1D1, inset -1px -1px 16px #F5F6FA, inset 1px 1px 16px #E9EAF2;
 border-radius: 20px;
 }
-.ext
-{
-    margin-bottom: 20px;
-    background-color: #a2b29f;
-}
+
 .new
 {
     margin-left:auto;
@@ -251,4 +356,33 @@ border-radius: nullpx;
 padding-top: 40px;
 padding-bottom: 40px;
 text-align: center;
+}
+.sep
+{
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.below
+{
+  padding-top: 20px;
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+height: 21px;
+
+padding-left: 40px;
+color: rgba(0, 0, 0, 0.7)
+}
+.bspan
+{
+  height: 21px;
+
+
+
+font-weight: 500;
+text-decoration: none;
+color: #2F4D96;
 }
